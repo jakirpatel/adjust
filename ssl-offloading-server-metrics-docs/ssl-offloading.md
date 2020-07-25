@@ -1,4 +1,4 @@
-##### Use Case: Metrics measurement for the server doing SSL-Offloading and Proxying 250000 request per second.
+### Use Case: Metrics measurement for the server doing SSL-Offloading and Proxying 25000 request per second.
 
 # Usual Architecture: 
 ![Kiku](ssl-termination.jpg)
