@@ -7,7 +7,6 @@
 
 # Which Metrics To Monitor and How to do that? 
 
-============================
 ##  Server Stats
 Type : White Box Monitoring \
 Type of Data : Time Series \
@@ -252,7 +251,7 @@ node_filefd_allocated 1312
 # TYPE node_filefd_maximum gauge
 node_filefd_maximum 793830
 ```
-============================
+
 
 
 ## Proxy Server Stats 
@@ -272,7 +271,6 @@ How to get : Running  Exporter on server for Proxy Server if available (Example:
 | RTT |  RTT measured for each connection between client and SSL-Offloading Server | To track RTT | 
 
 
-============================
 
 ## Network Stat Dump 
 Type: Black Box Monitoring \
@@ -281,7 +279,7 @@ How to get : With tcpdump
 
 Why: To measure network related troubles , security risks periodically. Compatible with tools like wireshark. 
 
-============================
+
 
 ## Linux Kernel Dump
 Type: Black Box Monitoring \
@@ -290,7 +288,7 @@ How to get: Install and configure kdump
 
 Why : To measure the kernel crash (FROM unknown bugs which will require upgrade). Use kdump to visualize
 
-============================
+
 
 ## Process Monitoring Metrics 
 Type: White Box Monitoring \
@@ -299,7 +297,7 @@ How to get: Install and configure Nagios for Exporters (Monitoring & Proxy serve
 
 Why : To measure the processes are up and running
 
-============================
+
 
 
 ## Key metrics for alerts on SSL Offloading Server : 
@@ -311,7 +309,7 @@ Why : To measure the processes are up and running
 5. Memory Free (Free memory on the server)
 6. SSL-Offloading Proxy Server Process Aliveness (With Nagios )
 
-============================
+
 
 
 # Challenges of SSL-Offloading Proxy Server Monitoring :
@@ -322,4 +320,4 @@ Why : To measure the processes are up and running
 4. Internet Facing Firewall Monitoring : Catch Security Threats, DDoS attacks , Spoofing  
 4. Monitoring of Monitoring and HA of monitoring itself : Its always challenge.
 
-============================
+
